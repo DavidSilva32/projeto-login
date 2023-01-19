@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Typical Devices Breakpoints
+===============================
+    Phones: 600px até 768px
+    Tablet: 768px até 1024px
+    Desktop: 1024px até 1400px
+    Grandes telas: 1400px
+*/
+
+@media screen and (min-width: 768px) {
+    section#login {
+        width: 90vw;
+    }
+
+    div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
