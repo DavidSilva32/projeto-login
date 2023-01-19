@@ -9,6 +9,10 @@
 */
 
 @media screen and (min-width: 768px) {
+    body {
+        background-image: linear-gradient(to top, var(--cor01), var(--cor02));
+    }
+
     section#login {
         width: 90vw;
     }
@@ -22,5 +26,23 @@
     div#formulario {
         float: right;
         width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-image: linear-gradient(to top, var(--cor01), var(--cor02));
+    }
+
+    section#login {
+        width: 1024px;
+    }
+
+    div#imagem {
+        width: 50%;
+    }
+
+    div#formulario {
+        width: 50%;
     }
 }
