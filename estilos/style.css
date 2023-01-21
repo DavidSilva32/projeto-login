@@ -81,6 +81,11 @@ div#formulario > p {
     display: none;
 }
 
+.campo > span {
+    color: white;
+    background-color: black;
+}
+
 form > input[type=submit] {
     display: block;
     width: 100%;
